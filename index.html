@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: #DCDCDC;">
+<br>
+    <h1 class="heading"><b><i><u>Calculator</u></i></b></h1>
+    <div class="Calculator card main">
+        <div>
+        <input id="result" class=" result calculator-screen z-depth-1" value="" type="text">
+        </div>
+        <div>
+            <button class="btn" onclick="getNumber('7')">7</button>
+            <button class="btn" onclick="getNumber('8')">8</button>
+            <button class="btn" onclick="getNumber('9')">9</button>
+            <button class="btn mul" onclick="getNumber('*')">X</button>
+        </div>
+        <div>
+            <button class="btn" onclick="getNumber('4')">4</button>
+            <button class="btn" onclick="getNumber('5')">5</button>
+            <button class="btn" onclick="getNumber('6')">6</button>
+            <button class="btn sub" onclick="getNumber('-')">-</button>
+        </div>
+        <div>
+            <button class="btn" onclick="getNumber('1')">1</button>
+            <button class="btn" onclick="getNumber('2')">2</button>
+            <button class="btn" onclick="getNumber('3')">3</button>
+            <button class="btn add" onclick="getNumber('+')">+</button>
+        </div>
+        <div>
+            <button class="btn" onclick="getNumber('0')">0</button>
+            <button class="btn" onclick="getResult()">=</button>
+            <button class="btn" onclick="getNumber('/')">/</button>
+            <button class="btn dot" onclick="getNumber('.')">.</button>
+        </div>
+        <div>
+            <button style="background-color: aquamarine; width: 100%;" class="btn" onclick="clearResult()">C</button>
+        </div>
+    </div>
+    
+</body>
+<script src="app.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+</html>

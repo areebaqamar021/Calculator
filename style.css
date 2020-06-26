@@ -1,0 +1,39 @@
+.main {
+    border: 2px solid 	#E6E6FA;
+    width: 370px;
+    margin: 0 auto;
+}
+.heading{
+    font-style: unset;
+    text-align: center;
+}
+.result {
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    height: 70px;
+    font-size: 30px;
+}
+.clearBtn{
+    margin-top: 10px;
+}
+.btn{
+    background-color: #FFE4C4;
+    width: 50pxpx;
+    margin: 2px;
+    font-size: 20px;
+    margin-top: 20px;
+    
+}
+.add{
+    width: 25%;
+}
+.mul{
+    width: 25%;
+}
+.sub{
+    width: 25%;
+}
+.dot{
+    width: 26%;
+}
